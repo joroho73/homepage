@@ -121,13 +121,19 @@ button {
     width: 180px;
 }
 
-.quote {
+.quote_container {
     background-color: #E5E7EB;
+    display: flex;
+
+}
+
+.quote {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
     font-weight: lighter;
-    padding: 50px;
+    padding: 80px;
+    max-width: 800px;
 }
 .quotee {
     padding: 20ox;
