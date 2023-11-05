@@ -127,8 +127,18 @@ button {
     color: #1F2937;
     font-style: italic;
     font-weight: lighter;
+    padding: 50px;
+}
+.quotee {
+    padding: 20ox;
+    font-size: 20px;
+    text-align: right;
 }
 
 .footer {
     background-color: #1F2937;
+    font-size: 18px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    padding: 6px;
 }
