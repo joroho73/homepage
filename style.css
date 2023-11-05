@@ -141,6 +141,15 @@ button {
     text-align: right;
 }
 
+.photos > p {
+    padding: 20px;
+}
+
+.homepage_photo {
+    max-width:100%;
+}
+
+
 .footer {
     background-color: #1F2937;
     font-size: 18px;
