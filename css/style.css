@@ -149,7 +149,6 @@ button {
     max-width:100%;
 }
 
-
 .footer {
     background-color: #1F2937;
     font-size: 18px;
@@ -157,5 +156,63 @@ button {
     color: #F9FAF8;
     padding: 6px;
 }
+
+/* Portfolio content*/
+.portfolioContainer {
+    display:flex;
+    align-items: center;
+}
+
+.portfolioContent {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.requestCVContainer {
+    display:flex;
+    align-items: center;
+}
+
+.requestCV {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    width: 600px;
+    padding: 20px;
+    gap: 15px;
+    margin: 4px;
+}
+
+.CVform {
+    flex-direction: row;
+}
+
+.CVbutton {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 8px;
+    width: 100px;
+    border-radius: 6px;
+    align-self: center;
+}
+
+.cvHr {
+    border-top: 2px solid #3882F6;
+    width: 80%;
+
+}
+
+.whiteLink {
+    color: #3882f6;
+    text-decoration: none;
+}
+
+.whiteLink:hover {
+    color: #1F2937;
+}
+
+
 
 
