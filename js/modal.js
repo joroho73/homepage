@@ -25,21 +25,21 @@ window.onclick = function(event) {
   }
 }
 
-// submit form
-const contactForm = document.querySelector('.contactForm')
-contactForm.addEventListener("submit", (e) => {
-    e.preventDefault();
+// // submit form
+// const contactForm = document.querySelector('.contactForm')
+// contactForm.addEventListener("submit", (e) => {
+//     e.preventDefault();
 
-    let name = document.querySelector('.name');
-    let email = document.querySelector('.email');
-    let phone = document.querySelector('.phone');
-    let text = document.querySelector('.text');
+//     let name = document.querySelector('.name');
+//     let email = document.querySelector('.email');
+//     let phone = document.querySelector('.phone');
+//     let text = document.querySelector('.text');
 
-    console.log(
-        `This form has a username of ${name.value} and email of ${email.value}`
-      );
+//     console.log(
+//         `This form has a username of ${name.value} and email of ${email.value}`
+//       );
   
-    // handle submit
-  });
+//     // handle submit
+//   });
 
 

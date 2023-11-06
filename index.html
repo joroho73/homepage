@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JoRoHo73</title>
+    <title>John Robert Howard - Profile</title>
     <link href="css/style.css" rel="stylesheet">
     <link href="css/modalStyle.css" rel="stylesheet">
     <script src="js/modal.js" rel="text/javascript" defer></script>
@@ -91,12 +91,12 @@
         <span class="close">&times;</span>
         <div class="highlight_header">Contact</div>
         <p>Send me a message and I'll get right back to you...</p>
-        <form class="contactForm" action="sendEmail.php" autocomplete="on">
-            <input type="text" id="name" class="name" placeholder="your name (required)" required autocomplete="on"><br>
-            <input type="email" id="email" class="email" placeholder="your email (required)" required autocomplete="on"><br>
-            <input type="tel" id="phone" class="phone" placeholder="your phone" autocomplete="on"><br>
-            <input type="textarea" id="message" class="text" placeholder="your message (required)" required><br>
-            <input type="submit" class="submit" value="Send it!">
+        <form class="contactForm" action="https://formspree.io/f/mnqkrgqr" autocomplete="on" method="post">
+            <input type="text" name="name" id="name" class="name" placeholder="your name (required)" required autocomplete="on"><br>
+            <input type="email" name="email" id="email" class="email" placeholder="your email (required)" required autocomplete="on"><br>
+            <input type="tel" name="phone" id="phone" class="phone" placeholder="your phone" autocomplete="on"><br>
+            <input type="textarea" name="text" id="message" class="text" placeholder="your message (required)" required><br>
+            <input type="submit" name="button" class="submit" value="Send it!">
           </form> 
     </div>
 
