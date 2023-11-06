@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JoRoHo73</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/modalStyle.css" rel="stylesheet">
+    <script src="js/modal.js" rel="text/javascript" defer></script>
 </head>
 <body>
     <div class="menu">
@@ -23,7 +25,7 @@
         <div>
             <span class="hero_title">Hi, I'm John!</span>
             <span class="hero_text">Welcome to my portfolio. You can read about some of the projects I've been involved in, look at some of apps I've built. Don't forget to take a look at my photograpy!</span>
-            <button>Get in touch</button>
+            <button class="modalButton">Get in touch</button>
 
         </div>
 
@@ -33,7 +35,7 @@
     <div class="highlight_container">
         <div class="highlight_item">
             <div class="highlight_top">
-                <a href="/portfolio-cv.html" alt="portfolio and cv">
+                <a href="content/portfolio-cv.html" alt="portfolio and cv">
                     <img src="i/projects_icon.png" alt="projects icon" class="portfolio_icon">
                 </a>
             </div>
@@ -80,6 +82,25 @@
         <p>Photo gallery comming soon!</p>
     </div>
     <div class="footer">Copyright © John Howard 2023</div>
+
+    <!-- Contact Modal -->
+    <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="highlight_header">Contact</div>
+        <p>Send me a message and I'll get right back to you...</p>
+        <form class="contactForm" action="sendEmail.php" autocomplete="on">
+            <input type="text" id="name" class="name" placeholder="your name (required)" required autocomplete="on"><br>
+            <input type="email" id="email" class="email" placeholder="your email (required)" required autocomplete="on"><br>
+            <input type="tel" id="phone" class="phone" placeholder="your phone" autocomplete="on"><br>
+            <input type="textarea" id="message" class="text" placeholder="your message (required)" required><br>
+            <input type="submit" class="submit" value="Send it!">
+          </form> 
+    </div>
+
+    </div>
     
 </body>
 </html>
